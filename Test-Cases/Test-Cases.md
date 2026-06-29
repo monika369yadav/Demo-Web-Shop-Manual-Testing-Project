@@ -84,6 +84,23 @@ Detailed test cases derived from [Test-Scenarios.md](../Test-Scenarios/Test-Scen
 
 ---
 
+## TC_JEW_001
+
+| Field | Details |
+|---|---|
+| **Test Case ID** | TC_JEW_001 |
+| **Module** | Jewelry |
+| **Title** | Verify "Display per page" behavior when selected value exceeds total available products |
+| **Preconditions** | User is on the Jewelry category page |
+| **Steps** | 1. Navigate to Jewelry category 2. Select a "Display per page" value greater than the total number of available products (e.g., 8 or more) 3. Observe the products displayed |
+| **Test Data** | Display per page: 8 (Jewelry category contains only 5 products) |
+| **Expected Result** | All available products should be displayed |
+| **Actual Result** | Only 5 products are displayed because the Jewelry category contains only 5 products |
+| **Status** | ✅ Pass |
+| **Remarks** | Expected behavior. Not a bug. |
+
+---
+
 *New test cases will be added here as more modules are tested.*
 
 **Status Legend:** ✅ Pass &nbsp;|&nbsp; ❌ Fail &nbsp;|&nbsp; ⏳ Not Executed &nbsp;|&nbsp; 🚫 Blocked
